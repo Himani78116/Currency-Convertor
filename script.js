@@ -1,4 +1,4 @@
-const base_URL="https://v6.exchangerate-api.com/v6/8d11c9111ec52ba693ae3b0d/latest/";
+const base_URL="YOUR_BASE_URL";
 const dropdowns=document.querySelectorAll(".dropdown select");
 const btn=document.querySelector("form button");
 const msg=document.querySelector(".msg");
@@ -52,6 +52,7 @@ btn.addEventListener("click",async (evt)=>{
   msg.innerText=`${amtVal} ${fromCurr.value}=${finalAmount} ${toCurr.value}`;
   
 });
+
 
 
 
